@@ -54,9 +54,9 @@ __meta__ = {
 }
 
 [node name="ToSend" type="LineEdit" parent="."]
-margin_left = 176.0
+margin_left = 168.0
 margin_top = 592.0
-margin_right = 848.0
+margin_right = 840.0
 margin_bottom = 616.0
 __meta__ = {
 "_edit_use_anchors_": false
@@ -67,3 +67,6 @@ margin_left = 16.0
 margin_top = 72.0
 margin_right = 1016.0
 margin_bottom = 576.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
