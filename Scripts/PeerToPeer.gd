@@ -13,3 +13,5 @@ sync func receiveMessage(id, text):
 	$Label.text = text
 func _on_Send_pressed():
 	rpc("recieveMessage", get_tree().get_network_unique_id(), $ToSend.text)
+func work():
+	print_debug("")
