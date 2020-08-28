@@ -1,0 +1,28 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[  ]
+_global_script_class_icons={
+
+}
+
+[application]
+
+config/name="The Family Farm"
+run/main_scene="res://Scenes/Playable/Main Menu.tscn"
+config/icon="res://Images/icon.png"
+
+[autoload]
+
+Global="*res://Scripts/Global.gd"
+
+[rendering]
+
+environment/default_environment="res://Godot Resources/default_env.tres"
