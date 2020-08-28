@@ -10,19 +10,53 @@ font_data = ExtResource( 2 )
 [node name="Main Menu" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = -8.0
-margin_top = -8.0
-margin_right = -8.0
-margin_bottom = -8.0
+margin_left = 41.4974
+margin_top = -6.58578
+margin_right = 41.4973
+margin_bottom = -6.58582
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Label" type="Label" parent="."]
-margin_left = 160.0
-margin_top = 8.0
-margin_right = 1192.0
-margin_bottom = 192.0
+margin_left = 185.456
+margin_top = 9.41422
+margin_right = 1217.46
+margin_bottom = 193.414
 custom_fonts/font = SubResource( 1 )
 text = "The Family Farm"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+margin_left = 413.373
+margin_top = 182.828
+margin_right = 532.373
+margin_bottom = 220.828
+text = "New game"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button2" type="Button" parent="."]
+margin_left = 413.13
+margin_top = 124.757
+margin_right = 530.13
+margin_bottom = 164.757
+text = "Continue"
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": ""
+}
+
+[node name="Button3" type="Button" parent="."]
+margin_left = 411.586
+margin_top = 246.172
+margin_right = 531.586
+margin_bottom = 287.172
+text = "Exit"
+__meta__ = {
+"_edit_use_anchors_": false
+}
