@@ -24,3 +24,4 @@ shape = SubResource( 1 )
 [node name="Camera2D" type="Camera2D" parent="KinematicBody2D"]
 current = true
 zoom = Vector2( 0.5, 0.5 )
+smoothing_enabled = true
