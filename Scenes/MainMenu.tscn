@@ -1,0 +1,56 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/ButtonChangeScene.gd" type="Script" id=1]
+
+[node name="MainMenu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 728.0
+margin_top = -8.0
+margin_right = 728.0
+margin_bottom = -8.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit" type="LineEdit" parent="."]
+margin_left = -568.0
+margin_top = 339.0
+margin_right = 172.0
+margin_bottom = 393.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Create" type="Button" parent="."]
+margin_left = -568.0
+margin_top = 448.0
+margin_right = -216.0
+margin_bottom = 468.0
+text = "Create Room"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Play" type="Button" parent="."]
+margin_left = -384.0
+margin_top = 296.0
+margin_right = -32.0
+margin_bottom = 316.0
+text = "Play Game Locally"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+path = "res://Scenes/Game.tscn"
+
+[node name="Join" type="Button" parent="."]
+margin_left = -184.0
+margin_top = 448.0
+margin_right = 168.0
+margin_bottom = 468.0
+text = "Join Room"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="Play" to="Play" method="on_press"]
