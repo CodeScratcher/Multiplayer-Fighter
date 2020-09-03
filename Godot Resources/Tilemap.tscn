@@ -1,0 +1,49 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Images/leftdiagonol.png" type="Texture" id=1]
+[ext_resource path="res://Images/filled.png" type="Texture" id=2]
+[ext_resource path="res://Images/leftdiagonolr.png" type="Texture" id=3]
+[ext_resource path="res://Images/rightdiagonolr.png" type="Texture" id=4]
+[ext_resource path="res://Images/rightdiagonol.png" type="Texture" id=5]
+
+[node name="Tilemap" type="Node2D"]
+
+[node name="filled" type="Sprite" parent="."]
+position = Vector2( 80, 16 )
+texture = ExtResource( 2 )
+
+[node name="rightdiagonolr" type="Sprite" parent="."]
+position = Vector2( 16, 48 )
+texture = ExtResource( 4 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="rightdiagonolr"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="rightdiagonolr/StaticBody2D"]
+polygon = PoolVector2Array( -16, -16, -16, 16, 16, 16 )
+
+[node name="rightdiagonol" type="Sprite" parent="."]
+position = Vector2( 48, 48 )
+texture = ExtResource( 5 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="rightdiagonol"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="rightdiagonol/StaticBody2D"]
+polygon = PoolVector2Array( -16, -16, 16, -16, 16, 16 )
+
+[node name="leftdiagonolr" type="Sprite" parent="."]
+position = Vector2( 48, 16 )
+texture = ExtResource( 3 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="leftdiagonolr"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="leftdiagonolr/StaticBody2D"]
+polygon = PoolVector2Array( -16, 16, 16, -16, 16, 16 )
+
+[node name="leftdiagonol" type="Sprite" parent="."]
+position = Vector2( 16, 16 )
+texture = ExtResource( 1 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="leftdiagonol"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="leftdiagonol/StaticBody2D"]
+polygon = PoolVector2Array( -16, 16, 16, -16, -16, -16 )
