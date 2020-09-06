@@ -1,0 +1,43 @@
+[gd_scene format=2]
+
+[node name="RoomSetup" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="P1" type="Panel" parent="."]
+margin_top = 264.0
+margin_right = 208.0
+margin_bottom = 584.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="P2" type="Panel" parent="."]
+margin_left = 264.0
+margin_top = 264.0
+margin_right = 472.0
+margin_bottom = 584.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="P3" type="Panel" parent="."]
+margin_left = 536.0
+margin_top = 264.0
+margin_right = 744.0
+margin_bottom = 584.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="P4" type="Panel" parent="."]
+margin_left = 816.0
+margin_top = 264.0
+margin_right = 1024.0
+margin_bottom = 584.0
+__meta__ = {
+"_edit_use_anchors_": false
+}

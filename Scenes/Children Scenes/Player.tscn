@@ -10,9 +10,9 @@
 transform = Transform( 1.52654, 0, 0, 0, 0.711431, 0, 0, 0, 1.66393, 5.96573, 2.84033, 0.409809 )
 input_capture_on_drag = true
 script = ExtResource( 1 )
-gravity = 25
+gravity = 15
 terminal_velocity = 50
-jump_force = 150
+jump_force = 125
 accel = 5
 max_run_speed = 20
 

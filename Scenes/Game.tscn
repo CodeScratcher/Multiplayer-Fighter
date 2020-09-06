@@ -21,7 +21,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0135575, 0, 0 )
 shape = SubResource( 2 )
 
 [node name="Arena2" type="MeshInstance" parent="."]
-transform = Transform( -4.72011, 0, 0, 0, 1, 0, 0, 0, 4.76005, -6.04229, 1.16321, 5.15682 )
+transform = Transform( -4.72011, 0, 0, 0, 1, 0, 0, 0, 4.76005, -16.2892, 7.02843, -2.17076 )
 mesh = SubResource( 1 )
 material/0 = null
 
@@ -30,8 +30,18 @@ material/0 = null
 [node name="CollisionShape" type="CollisionShape" parent="Arena2/StaticBody"]
 shape = SubResource( 2 )
 
+[node name="Arena4" type="MeshInstance" parent="."]
+transform = Transform( -4.72011, 0, 0, 0, 1, 0, 0, 0, 4.76005, 15.9272, 7.02843, -2.17076 )
+mesh = SubResource( 1 )
+material/0 = null
+
+[node name="StaticBody" type="StaticBody" parent="Arena4"]
+
+[node name="CollisionShape" type="CollisionShape" parent="Arena4/StaticBody"]
+shape = SubResource( 2 )
+
 [node name="Arena3" type="MeshInstance" parent="."]
-transform = Transform( -4.72011, 0, 0, 0, 1, 0, 0, 0, 4.76005, -1.77467, 5.53207, -6.63774 )
+transform = Transform( -4.72011, 0, 0, 0, 1, 0, 0, 0, 4.76005, -1.70783, 3.15294, 0.788324 )
 mesh = SubResource( 1 )
 material/0 = null
 
