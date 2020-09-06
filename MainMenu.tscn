@@ -12,6 +12,8 @@ margin_left = 128.0
 margin_top = 371.0
 margin_right = 868.0
 margin_bottom = 425.0
+text = "Multiplayer fighter!"
+align = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
