@@ -54,4 +54,6 @@ text = "Join Room"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
 [connection signal="pressed" from="Play" to="Play" method="on_press"]
